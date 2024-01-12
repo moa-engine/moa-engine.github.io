@@ -1,0 +1,191 @@
+:root {
+	--pc: #865DFF;
+	--sc: #b984ff;
+	--bp: #212127;
+	--bs: #262930;
+}
+
+@keyframes aGetout {from {transform: translate(0,0)} to {transform: translate(10rem,10rem)}
+}
+@keyframes bGetout {from {transform: translate(0,0)} to {transform: translate(-10rem,10rem)}
+}
+@keyframes cGetout {from {transform: translate(0,0)} to {transform: translate(-10rem,-10rem)}
+}
+@keyframes dGetout {from {transform: translate(0,0)} to {transform: translate(10rem,-10rem)}
+}
+@keyframes aFly {20% {transform: translate(10.75rem,8.5rem)} 40% {transform: translate(11.5rem,10rem)} 60% {transform: translate(10rem,9.25rem)} 80% {transform: translate(11.5rem,9.25rem)} 100% {transform: translate(10rem,10rem)}
+}
+@keyframes bFly {20% {transform: translate(-10.75rem,8.5rem)} 40% {transform: translate(-11.5rem,10rem)} 60% {transform: translate(-10rem,9.25rem)} 80% {transform: translate(-11.5rem,9.25rem)} 100% {transform: translate(-10rem,10rem)}
+}
+@keyframes cFly {20% {transform: translate(-10.75rem,-8.5rem)} 40% {transform: translate(-11.5rem,-10rem)} 60% {transform: translate(-10rem,-9.25rem)} 80% {transform: translate(-11.5rem,-9.25rem)} 100% {transform: translate(-10rem,-10rem)}
+}
+@keyframes dFly {20% {transform: translate(10.75rem,-8.5rem)} 40% {transform: translate(11.5rem,-10rem)} 60% {transform: translate(10rem,-9.25rem)} 80% {transform: translate(11.5rem,-9.25rem)} 100% {transform: translate(10rem,-10rem)}
+}
+.align-items\:center{
+	align-items: center
+}
+.animation\:aGetout_5s_both_\.5s\,19s_aFly_1\.5s_infinite_ease-in-out{
+	animation: aGetout 5s both .5s,19s aFly 1.5s infinite ease-in-out
+}
+.animation\:bGetout_5s_both_1s\,18\.5s_bFly_2s_infinite_ease-in-out{
+	animation: bGetout 5s both 1s,18.5s bFly 2s infinite ease-in-out
+}
+.animation\:dGetout_5s_both_1\.25s\,15s_dFly_2\.25s_infinite_ease-in-out{
+	animation: dGetout 5s both 1.25s,15s dFly 2.25s infinite ease-in-out
+}
+.animation\:cGetout_5s_both_\.75s\,20s_cFly_1\.75s_infinite_ease-in-out{
+	animation: cGetout 5s both .75s,20s cFly 1.75s infinite ease-in-out
+}
+.background\:radial-gradient\(circle\,_\$bp_15\%\,_transparent_50\%\){
+	background: radial-gradient(circle, var(--bp) 15%, transparent 50%)
+}
+.hover\:background-color\:transparent:hover{
+	background-color: transparent
+}
+.background-color\:\$bp{
+	background-color: var(--bp)
+}
+.background-color\:\$pc{
+	background-color: var(--pc)
+}
+.background-color\:\#F6F8FC{
+	background-color: #F6F8FC
+}
+.border\:2px_solid_\$pc{
+	border: 2px solid var(--pc)
+}
+.border\:2px_solid_\#F6F8FC{
+	border: 2px solid #F6F8FC
+}
+.hover\:border-color\:\$sc:hover{
+	border-color: var(--sc)
+}
+.border-radius\:\.5rem{
+	border-radius: .5rem
+}
+.hover\:color\:inherit:hover{
+	color: inherit
+}
+.color\:\#fafafa{
+	color: #fafafa
+}
+.color\:inherit{
+	color: inherit
+}
+.color\:\$bs{
+	color: var(--bs)
+}
+.hover\:cursor\:pointer:hover{
+	cursor: pointer
+}
+.display\:flex{
+	display: flex
+}
+.flex-direction\:column{
+	flex-direction: column
+}
+.font-family\:\^Roboto\^\,sans-serif{
+	font-family: 'Roboto',sans-serif
+}
+.font-size\:1\.5rem{
+	font-size: 1.5rem
+}
+.height\:100svh{
+	height: 100svh
+}
+.justify-content\:center{
+	justify-content: center
+}
+.left\:calc\(50\%_-_1rem\){
+	left: calc(50% - 1rem)
+}
+.left\:50px{
+	left: 50px
+}
+.margin\:0{
+	margin: 0
+}
+.margin\:\.5rem{
+	margin: .5rem
+}
+.margin-bottom\:1\.5rem{
+	margin-bottom: 1.5rem
+}
+.margin-bottom\:1rem{
+	margin-bottom: 1rem
+}
+.max-width\:575px{
+	max-width: 575px
+}
+.min-width\:350px{
+	min-width: 350px
+}
+.padding\:\.75rem_1\.5rem{
+	padding: .75rem 1.5rem
+}
+.position\:relative{
+	position: relative
+}
+.position\:absolute{
+	position: absolute
+}
+.right\:50px{
+	right: 50px
+}
+.text-decoration\:none{
+	text-decoration: none
+}
+.top\:calc\(50\%_-_1rem\){
+	top: calc(50% - 1rem)
+}
+.active\:transform\:translateY\(5\%\):active{
+	transform: translateY(5%)
+}
+.transition\:all_200ms{
+	transition: all 200ms
+}
+.width\:35\%{
+	width: 35%
+}
+.width\:100\%{
+	width: 100%
+}
+.z-index\:-1{
+	z-index: -1
+}
+
+@media (min-width: 640px) {
+.sm\:flex-direction\:row{
+	flex-direction: row
+}
+.sm\:margin\:0{
+	margin: 0
+}
+.sm\:margin-left\:1rem{
+	margin-left: 1rem
+}
+}
+
+@media (min-width: 1024px) {
+.lg\:left\:100px{
+	left: 100px
+}
+.lg\:right\:100px{
+	right: 100px
+}
+}
+
+@media (min-width: 1500px) {
+.minw1500px\:left\:200px{
+	left: 200px
+}
+.minw1500px\:right\:200px{
+	right: 200px
+}
+}
+
+@media (max-width: 568px) {
+.maxw568px\:display\:none{
+	display: none
+}
+}
