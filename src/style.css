@@ -51,6 +51,9 @@
 .background-color\:\#F6F8FC{
 	background-color: #F6F8FC
 }
+.background-color\:\#865dff24{
+	background-color: #865dff24
+}
 .border\:2px_solid_\$pc{
 	border: 2px solid var(--pc)
 }
@@ -62,6 +65,33 @@
 }
 .border-radius\:\.5rem{
 	border-radius: .5rem
+}
+.border-radius\:2rem{
+	border-radius: 2rem
+}
+.bottom\:1rem{
+	bottom: 1rem
+}
+.box-shadow\:\#b984ff14_-1px_-1px_10px_10px{
+	box-shadow: #b984ff14 -1px -1px 10px 10px
+}
+.box-shadow\:\#b984ff14_-1px_-1px_5px_10px{
+	box-shadow: #b984ff14 -1px -1px 5px 10px
+}
+.box-shadow\:\#b984ff14_-5px_-5px_5px_5px{
+	box-shadow: #b984ff14 -5px -5px 5px 5px
+}
+.box-shadow\:\#b984ff14_-5px_-5px_2px_5px{
+	box-shadow: #b984ff14 -5px -5px 2px 5px
+}
+.box-shadow\:\#b984ff14_-5px_-5px_5px_1px{
+	box-shadow: #b984ff14 -5px -5px 5px 1px
+}
+.box-shadow\:\#b984ff14_-5px_-5px_10px_2px{
+	box-shadow: #b984ff14 -5px -5px 10px 2px
+}
+.box-shadow\:\#865dff24_-5px_-5px_10px_2px{
+	box-shadow: #865dff24 -5px -5px 10px 2px
 }
 .hover\:color\:inherit:hover{
 	color: inherit
@@ -75,26 +105,55 @@
 .color\:\$bs{
 	color: var(--bs)
 }
+.color\:\$sc{
+	color: var(--sc)
+}
+.color\:\$Pc{
+	color: var(--Pc)
+}
+.color\:\$pc{
+	color: var(--pc)
+}
 .hover\:cursor\:pointer:hover{
 	cursor: pointer
 }
 .display\:flex{
 	display: flex
 }
+.flex-basis\:500px{
+	flex-basis: 500px
+}
 .flex-direction\:column{
 	flex-direction: column
+}
+.flex-wrap\:wrap{
+	flex-wrap: wrap
 }
 .font-family\:\^Roboto\^\,sans-serif{
 	font-family: 'Roboto',sans-serif
 }
-.font-size\:1\.5rem{
-	font-size: 1.5rem
+.font-size\:x-large{
+	font-size: x-large
+}
+.\[h1\]\{font-size\:xxx-large\} h1,
+.\[h1\]\{font-size\:xxx-large\;\} h1,
+.font-size\:xxx-large{
+	font-size: xxx-large
+}
+.font-size\:large{
+	font-size: large
 }
 .height\:100svh{
 	height: 100svh
 }
+.height\:auto{
+	height: auto
+}
 .justify-content\:center{
 	justify-content: center
+}
+.justify-content\:space-between{
+	justify-content: space-between
 }
 .left\:calc\(50\%_-_1rem\){
 	left: calc(50% - 1rem)
@@ -102,11 +161,20 @@
 .left\:50px{
 	left: 50px
 }
+.line-height\:2rem{
+	line-height: 2rem
+}
+.line-height\:1rem{
+	line-height: 1rem
+}
+.line-height\:1\.5rem{
+	line-height: 1.5rem
+}
 .margin\:0{
 	margin: 0
 }
-.margin\:\.5rem{
-	margin: .5rem
+.margin\:\.5rem_0{
+	margin: .5rem 0
 }
 .margin-bottom\:1\.5rem{
 	margin-bottom: 1.5rem
@@ -114,14 +182,62 @@
 .margin-bottom\:1rem{
 	margin-bottom: 1rem
 }
+.margin-bottom\:2\.5rem{
+	margin-bottom: 2.5rem
+}
+.margin-bottom\:2rem{
+	margin-bottom: 2rem
+}
+.margin-left\:\.5rem{
+	margin-left: .5rem
+}
+.margin-left\:\.1rem{
+	margin-left: .1rem
+}
+.margin-left\:\.2rem{
+	margin-left: .2rem
+}
+.margin-right\:\.5rem{
+	margin-right: .5rem
+}
 .max-width\:575px{
 	max-width: 575px
 }
 .min-width\:350px{
 	min-width: 350px
 }
+.min-width\:490px{
+	min-width: 490px
+}
+.min-width\:650px{
+	min-width: 650px
+}
+.min-width\:450px{
+	min-width: 450px
+}
+.opacity\:\.5{
+	opacity: .5
+}
+.overflow\:hidden{
+	overflow: hidden
+}
 .padding\:\.75rem_1\.5rem{
 	padding: .75rem 1.5rem
+}
+.padding\:3rem_2rem{
+	padding: 3rem 2rem
+}
+.padding\:5rem_2rem{
+	padding: 5rem 2rem
+}
+.padding\:1\.5rem_3rem{
+	padding: 1.5rem 3rem
+}
+.padding\:1\.5rem_5rem{
+	padding: 1.5rem 5rem
+}
+.padding\:\.1rem_\.5rem{
+	padding: .1rem .5rem
 }
 .position\:relative{
 	position: relative
@@ -132,6 +248,9 @@
 .right\:50px{
 	right: 50px
 }
+.text-align\:justify{
+	text-align: justify
+}
 .text-decoration\:none{
 	text-decoration: none
 }
@@ -140,6 +259,18 @@
 }
 .active\:transform\:translateY\(5\%\):active{
 	transform: translateY(5%)
+}
+.transform\:translateY\(20\%\){
+	transform: translateY(20%)
+}
+.transform\:translateX\(20\%\){
+	transform: translateX(20%)
+}
+.transform\:translateX\(10\%\){
+	transform: translateX(10%)
+}
+.transform\:translateX\(5\%\){
+	transform: translateX(5%)
 }
 .transition\:all_200ms{
 	transition: all 200ms
@@ -150,6 +281,18 @@
 .width\:100\%{
 	width: 100%
 }
+.width\:5rem{
+	width: 5rem
+}
+.width\:50rem{
+	width: 50rem
+}
+.width\:50vw{
+	width: 50vw
+}
+.width\:70vw{
+	width: 70vw
+}
 .z-index\:-1{
 	z-index: -1
 }
@@ -157,6 +300,9 @@
 @media (min-width: 640px) {
 .sm\:flex-direction\:row{
 	flex-direction: row
+}
+.sm\:flex-wrap\:wrap{
+	flex-wrap: wrap
 }
 .sm\:margin\:0{
 	margin: 0
@@ -166,7 +312,16 @@
 }
 }
 
+@media (min-width: 768px) {
+.md\:flex-wrap\:nowrap{
+	flex-wrap: nowrap
+}
+}
+
 @media (min-width: 1024px) {
+.lg\:flex-wrap\:nowrap{
+	flex-wrap: nowrap
+}
 .lg\:left\:100px{
 	left: 100px
 }
@@ -181,6 +336,54 @@
 }
 .minw1500px\:right\:200px{
 	right: 200px
+}
+}
+
+@media (max-width: 1020px) {
+.maxw1020px\:flex-wrap\:wrap{
+	flex-wrap: wrap
+}
+.maxw1020px\:margin-bottom\:2rem{
+	margin-bottom: 2rem
+}
+.maxw1020px\:margin-bottom\:2\.5rem{
+	margin-bottom: 2.5rem
+}
+.maxw1020px\:min-width\:90\%{
+	min-width: 90%
+}
+.maxw1020px\:min-width\:100\%{
+	min-width: 100%
+}
+.maxw1020px\:min-width\:450px{
+	min-width: 450px
+}
+.maxw1020px\:min-width\:100vw{
+	min-width: 100vw
+}
+.maxw1020px\:min-width\:90vw{
+	min-width: 90vw
+}
+.maxw1020px\:min-width\:95vw{
+	min-width: 95vw
+}
+.maxw1020px\:min-width\:80vw{
+	min-width: 80vw
+}
+.maxw1020px\:min-width\:80\%{
+	min-width: 80%
+}
+.maxw1020px\:min-width\:85\%{
+	min-width: 85%
+}
+.maxw1020px\:padding\:0{
+	padding: 0
+}
+.maxw1020px\:padding\:0_auto{
+	padding: 0 auto
+}
+.maxw1020px\:padding\:0_1rem{
+	padding: 0 1rem
 }
 }
 
