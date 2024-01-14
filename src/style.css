@@ -36,11 +36,50 @@
 .animation\:cGetout_5s_both_\.75s\,20s_cFly_1\.75s_infinite_ease-in-out{
 	animation: cGetout 5s both .75s,20s cFly 1.75s infinite ease-in-out
 }
+.backdrop-filter\:blur\(5px\){
+	-webkit-backdrop-filter: blur(5px);
+	        backdrop-filter: blur(5px)
+}
+.backdrop-filter\:blur\(50px\){
+	-webkit-backdrop-filter: blur(50px);
+	        backdrop-filter: blur(50px)
+}
+.backdrop-filter\:blur\(30px\){
+	-webkit-backdrop-filter: blur(30px);
+	        backdrop-filter: blur(30px)
+}
 .background\:radial-gradient\(circle\,_\$bp_15\%\,_transparent_50\%\){
 	background: radial-gradient(circle, var(--bp) 15%, transparent 50%)
 }
+.background\:tansparent{
+	background: tansparent
+}
+.background\:radial-gradient\(circle\,_\$bp_15\%\,_transparent_50\%\,_transparent_\۶0\%\){
+	background: radial-gradient(circle, var(--bp) 15%, transparent 50%, transparent ۶0%)
+}
+.background\:radial-gradient\(circle\,_\$bp_15\%\,_transparent_50\%\,_transparent_60\%\){
+	background: radial-gradient(circle, var(--bp) 15%, transparent 50%, transparent 60%)
+}
+.background\:radial-gradient\(circle\,_\$bp_15\%\,_transparent_50\%\,_transparent_90\%\){
+	background: radial-gradient(circle, var(--bp) 15%, transparent 50%, transparent 90%)
+}
+.background\:radial-gradient\(circle\,_\$bp_15\%\,_transparent_50\%\,_transparent_100\%\){
+	background: radial-gradient(circle, var(--bp) 15%, transparent 50%, transparent 100%)
+}
+.background\:radial-gradient\(circle\,_\$bp_15\%\,_transparent_50\%\,_transparent_51\%\){
+	background: radial-gradient(circle, var(--bp) 15%, transparent 50%, transparent 51%)
+}
+.background\:radial-gradient\(circle\,_\$bp_15\%\,_transparent_30\%\){
+	background: radial-gradient(circle, var(--bp) 15%, transparent 30%)
+}
+.background\:radial-gradient\(circle\,_\$bp_15\%\,_transparent_35\%\){
+	background: radial-gradient(circle, var(--bp) 15%, transparent 35%)
+}
 .hover\:background-color\:transparent:hover{
 	background-color: transparent
+}
+.hover\:background-color\:\#F6F8FC:hover{
+	background-color: #F6F8FC
 }
 .background-color\:\$bp{
 	background-color: var(--bp)
@@ -56,9 +95,6 @@
 }
 .background-color\:\$bs{
 	background-color: var(--bs)
-}
-.hover\:background-color\:\#F6F8FC:hover{
-	background-color: #F6F8FC
 }
 .background-color\:\#0e0f10{
 	background-color: #0e0f10
@@ -93,8 +129,17 @@
 .box-shadow\:\#865dff24_-5px_-5px_10px_2px{
 	box-shadow: #865dff24 -5px -5px 10px 2px
 }
+.box-shadow\:inset_0px_0px_5px_5px_transparent{
+	box-shadow: inset 0px 0px 5px 5px transparent
+}
+.box-shadow\:inset_0_0_0_5px_transparent{
+	box-shadow: inset 0 0 0 5px transparent
+}
 .hover\:color\:inherit:hover{
 	color: inherit
+}
+.hover\:color\:\$bp:hover{
+	color: var(--bp)
 }
 .color\:\#fafafa{
 	color: #fafafa
@@ -108,29 +153,17 @@
 .color\:\$sc{
 	color: var(--sc)
 }
-.color\:\$bp{
-	color: var(--bp)
-}
-.hover\:color\:\$bp:hover{
-	color: var(--bp)
-}
-.hover\:color\:\$bs:hover{
-	color: var(--bs)
-}
 .hover\:cursor\:pointer:hover{
 	cursor: pointer
 }
 .display\:flex{
 	display: flex
 }
+.filter\:blur\(25px\){
+	filter: blur(25px)
+}
 .flex-basis\:350px{
 	flex-basis: 350px
-}
-.flex-basis\:650px{
-	flex-basis: 650px
-}
-.flex-basis\:365px{
-	flex-basis: 365px
 }
 .flex-basis\:675px{
 	flex-basis: 675px
@@ -164,9 +197,6 @@
 }
 .justify-content\:space-evenly{
 	justify-content: space-evenly
-}
-.justify-content\:space-around{
-	justify-content: space-around
 }
 .left\:calc\(50\%_-_1rem\){
 	left: calc(50% - 1rem)
@@ -210,18 +240,6 @@
 .max-width\:575px{
 	max-width: 575px
 }
-.max-width\:40\%{
-	max-width: 40%
-}
-.max-width\:900px{
-	max-width: 900px
-}
-.max-width\:80\%{
-	max-width: 80%
-}
-.max-width\:100\%{
-	max-width: 100%
-}
 .max-width\:95\%{
 	max-width: 95%
 }
@@ -233,12 +251,6 @@
 }
 .min-width\:650px{
 	min-width: 650px
-}
-.min-width\:360px{
-	min-width: 360px
-}
-.min-width\:40\%{
-	min-width: 40%
 }
 .opacity\:\.5{
 	opacity: .5
@@ -264,38 +276,23 @@
 .padding\:1rem_0_0{
 	padding: 1rem 0 0
 }
-.padding\:2rem_3rem{
-	padding: 2rem 3rem
-}
-.padding\:1rem_2rem{
-	padding: 1rem 2rem
-}
-.padding\:1rem{
-	padding: 1rem
-}
-.padding\:0_3rem{
-	padding: 0 3rem
-}
-.padding\:2rem_0{
-	padding: 2rem 0
-}
-.padding\:\.5rem{
-	padding: .5rem
+.padding\:5rem_0{
+	padding: 5rem 0
 }
 .padding\:1\.5rem{
 	padding: 1.5rem
 }
-.padding\:5rem_0{
-	padding: 5rem 0
+.padding\:2rem_0{
+	padding: 2rem 0
 }
 .padding\:1rem_3rem{
 	padding: 1rem 3rem
 }
-.position\:relative{
-	position: relative
-}
 .position\:absolute{
 	position: absolute
+}
+.position\:relative{
+	position: relative
 }
 .right\:50px{
 	right: 50px
@@ -333,8 +330,17 @@
 .width\:70vw{
 	width: 70vw
 }
-.width\:40\%{
-	width: 40%
+.width\:600px{
+	width: 600px
+}
+.width\:6000px{
+	width: 6000px
+}
+.width\:1200px{
+	width: 1200px
+}
+.width\:1500px{
+	width: 1500px
 }
 .z-index\:-1{
 	z-index: -1
@@ -347,14 +353,8 @@
 .sm\:margin\:0{
 	margin: 0
 }
-.sm\:margin\:1rem{
-	margin: 1rem
-}
 .sm\:margin-left\:1rem{
 	margin-left: 1rem
-}
-.sm\:margin-top\:1rem{
-	margin-top: 1rem
 }
 }
 
