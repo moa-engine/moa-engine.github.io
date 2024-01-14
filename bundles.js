@@ -32,7 +32,7 @@ bundler.bundle([
 		outputFile: "./src/style.css",
 	},
 	// {
-	// 	files: ["./build/index.html"],
-	// 	outputFile: "./build/style.css"
+	// 	files: ["./docs/index.html"],
+	// 	outputFile: "./docs/style.css"
 	// }
 ]);
